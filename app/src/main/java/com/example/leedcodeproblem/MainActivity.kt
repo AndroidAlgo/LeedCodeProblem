@@ -32,6 +32,8 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
+    var pro= Program_zero_to_five()
+    pro.firstProblem()
     Text(
         text = "Hello $name!",
         modifier = modifier
