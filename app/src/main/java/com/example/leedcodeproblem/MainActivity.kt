@@ -32,8 +32,14 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
-    var pro= Program_zero_to_five()
-    pro.firstProblem()
+  //  var pro= Program_zero_to_five()
+//    pro.firstProblem()
+
+  //  var pro= AddTwoNumberReverseOrder()
+//    pro.SecondProblem()
+
+    var pro=  MedianofTwoStoredArrays()
+    pro.FourthProblem()
     Text(
         text = "Hello $name!",
         modifier = modifier
@@ -44,6 +50,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     LeedCodeProblemTheme {
-        Greeting("Android")
+        Greeting(/*"Android"*/"Jitendra")
     }
 }
